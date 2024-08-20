@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENTRI</title>
+    <link rel="icon" type="image/x-icon" href=" data:image/jpeg;base64,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">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <header class="bg-info" style=" position:fixed; width: 100%; z-index: 1;">
+        <div class="row text-white">
+            <div class="col-md-6 col-9">
+   <h2 class="p-3">ENTRI</h2>
+            </div>
+
+            <div class="col-md-6 col-3 my-auto">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                  
+
+                    <button class=" ml-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                    
+                  
+                    <div class="collapse navbar-collapse"id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link text-white" href="#home-section">Home <span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#Devops-section">Devops</a>
+                        </li>
+                         
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#languages-section">Languages</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white" href="#contact-section">Contact Us</a>
+                          </li>
+                           
+                      </ul>
+                      
+                         
+                      </form>
+                    </div>
+                  </nav>
+            </div>
+
+           
+        </div>
+
+    </header>
+
+    <section style="padding: 7rem;" id="home-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvbTM3M2JhdGNoNS0wMDQuanBn.jpg" alt="" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6"> 
+                <h4 pl-8>Skills for every one <br> and every thing  </h4>
+                <blockquote class="blockquote"> 
+                  <p><i> " Research shows that you begin learning in the womb and go right on learning until the moment you pass on. Your brain has a capacity for learning that is virtually limitless, which makes every human a potential genius"</i></p>
+                    <footer>-Plike</footer>
+                  </blockquote>
+              </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="bg-light">
+        <div class="container">
+          <h1 class="text-center" id="Devops-section">Coding Devops</h1>
+          <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cloudfront.entri.app/media/pack_thumbnails/2023/12/27/Full-Stack-Web-Development-002.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+               
+              </div>
+
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cloudfront.entri.app/media/pack_thumbnails/2023/04/24/ChatGPT-Essentials.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+               
+              </div>
+
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cloudfront.entri.app/media/pack_thumbnails/2022/03/29/Microsoft-Excel-Basic-to-Advanced-01_1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+               
+              </div>
+            </div>
+
+            <div class="row pt-3">
+                
+              <div class="col-md-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="https://cloudfront.entri.app/media/pack_thumbnails/2022/06/21/Software-Testing---Manual-and-Automation_1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+               
+              </div>
+
+              
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cloudfront.entri.app/media/pack_thumbnails/2022/03/28/python-programming-01_1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+               
+              </div>
+
+              
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cloudfront.entri.app/media/pack_thumbnails/2022/03/24/Introduction-to-Data-Science-and-Machine-Learning-01_1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+               
+              </div>
+
+            </div>
+   
+         </div>
+      </div> 
+    </section>
+
+    <section class="bg-light">
+        <div class="container">
+          <h1 class="text-center" id="languages-section">Languages</h1>
+          <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cloudfront.entri.app/media/pack_thumbnails/2024/05/03/Intermediate_-_Entri_English_01_copy.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+               
+              </div>
+
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cloudfront.entri.app/media/pack_thumbnails/2023/06/21/German-Language-Learning-01.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+               
+              </div>
+
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cloudfront.entri.app/media/pack_thumbnails/2024/04/01/Beginner_-_Entri_English_01.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+               
+              </div>
+            </div>
+            </div>
+            </section>
+
+
+            <section class="bg-light p-5" id="contact-section">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputEmail4">Name</label>
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputPassword4">Place</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Place">
+                          </div>
+                        </div>
+          
+                        <div class="form-row"> 
+                        <div class="form-group col-md-6">
+                          <label for="inputAddress">Email</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="Email">
+                        </div>
+          
+                        <div class="form-group col-md-6">
+                          <label for="inputAddress">Mobile</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="Mobile">
+                        </div>
+                      </div>
+                        <div class="form-group">
+                          <label for="inputAddress2">Message</label>
+                          <textarea class="form-control" cols="30" rows="10" placeholder="Type your message here..."></textarea>
+                        </div> 
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary text-center" style="width:100%" >Submit</button>
+                      </form>
+          
+                    </div>
+                  </div>
+          
+                </div>
+          
+              </section>
+
+              <footer class="bg-info">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12 text-center text-white"> 
+                      <a href="https://www.instagram.com/accounts/login/?hl=en"> 
+                      <img width="25" height="25" src="https://img.icons8.com/sf-ultralight/25/instagram-new.png" alt="instagram-new">
+                    </a>
+                      <p>Copyright</p>
+          
+                    </div>
+                  </div>
+                </div>
+              </footer>
+          
+          
+
+              <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+              <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+</body>
+</html>
